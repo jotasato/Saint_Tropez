@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SaintTropez</string>
+    <string name="top_text">TOP PAGE</string>
+    <string name="ebi_gyuu">エビフライと牛ロースステーキ</string>
+    <string name="chicken_redwine">鳥の赤ワイン煮</string>
+    <string name="uminosati">海の幸コース</string>
+    <string name="gyuufire">牛ヒレ肉のセット</string>
 </resources>

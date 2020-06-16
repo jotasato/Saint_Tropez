@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/top_text"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/lunch"
+        android:title="ランチ" >
+        <menu >
+            <item
+                android:id="@+id/lunch01"
+                android:title="@string/ebi_gyuu" />
+            <item
+                android:id="@+id/lunch02"
+                android:title="@string/chicken_redwine" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/dinner"
+        android:title="ディナー" >
+        <menu >
+            <item
+                android:id="@+id/dinner01"
+                android:title="@string/uminosati" />
+            <item
+                android:id="@+id/dinner02"
+                android:title="@string/gyuufire" />
+        </menu>
+    </item>
+</menu>
